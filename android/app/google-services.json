@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217136646615",
+    "project_id": "alamal-4ad53",
+    "storage_bucket": "alamal-4ad53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217136646615:android:9ca3108aa7970b0a986392",
+        "android_client_info": {
+          "package_name": "com.example.expiry_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqEzJ91IR_Rcfqj5wVyRzGdFumRjqFH_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217136646615:android:a2a5eed8f53fd155986392",
+        "android_client_info": {
+          "package_name": "com.odoo.alamal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqEzJ91IR_Rcfqj5wVyRzGdFumRjqFH_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

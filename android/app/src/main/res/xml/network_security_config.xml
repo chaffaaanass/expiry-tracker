@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        Allow plain HTTP to local network IPs (your Odoo server).
+        This covers 192.168.x.x, 10.x.x.x, 172.16-31.x.x ranges.
+        HTTPS traffic is always allowed everywhere.
+    -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.0.0</domain>
+        <domain includeSubdomains="true">192.168.1.0</domain>
+        <!-- Add your exact subnet if different, e.g. 192.168.2.x -->
+        <domain includeSubdomains="true">10.0.0.0</domain>
+        <domain includeSubdomains="true">172.16.0.0</domain>
+    </domain-config>
+
+    <!-- Allow http to any local IP (broader rule — use during development) -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
